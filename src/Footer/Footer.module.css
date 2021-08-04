@@ -1,0 +1,21 @@
+.footerBlock {
+    min-height: 25vh;
+    background-color: #6f4a37;
+}
+.footerContainer {
+    align-items: center;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.iconsBlock {
+    min-width: 25%;
+    background-color: #11aa99;
+    display: flex;
+    justify-content:space-between;
+}
+.iconsBlock .icons {
+    width: 35px;
+    height: 35px;
+    background-color: #827b7b;
+}

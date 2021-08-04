@@ -1,4 +1,15 @@
 .myBlock{
-    min-height: 100vh;
-    background-color: aquamarine;
+    min-height: 40vh;
+    background-color: #a610e5;
+
+}
+
+.introContainer {
+    align-items: center;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.buttonBlock{
+    margin: 10px;
 }

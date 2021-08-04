@@ -1,13 +1,16 @@
 import React from 'react';
 
-import style from './Header.module.css';
+import style from './Nav.module.css';
 
-function App() {
+function Nav() {
     return (
-        <div className={style.header}>
-            login
+        <div className={style.nav}>
+            <a href="">Главная </a>
+            <a href="">Скиллы</a>
+            <a href="">Работы</a>
+            <a href="">Контакты</a>
         </div>
     );
 }
 
-export default App;
+export default Nav;

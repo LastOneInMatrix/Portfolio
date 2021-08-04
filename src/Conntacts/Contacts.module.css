@@ -1,0 +1,27 @@
+.contactsBlock {
+    min-height: 50vh;
+    background-color: #19bdd4;
+}
+.contactsContainer {
+    align-items: center;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.contactsBlockForm{
+    margin-top: 10px;
+    min-width: 25%;
+    max-width: 45vh;
+
+    display: flex;
+    flex-direction: column;
+    /*justify-content: space-between; todo почему не работает?*/
+    align-items: stretch;
+}
+.contactsBlockForm input{
+    margin-bottom: 10px;
+    height: 2.5vh
+}
+.contactsBlockForm .textareaInput{
+    margin-bottom: 10px;
+    height: 12.5vh
+}
