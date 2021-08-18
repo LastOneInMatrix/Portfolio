@@ -1,18 +1,26 @@
 .worksBlock {
     min-height: 100vh;
-    background-color: #403d3d;
+    background-color: #5a5a58;
+
 }
 
 .workContainer {
     align-items: center;
     flex-direction: column;
     justify-content: flex-start;
+
 }
 
 .works {
-    border: 1px solid black;
+    /*border: 1px solid black;*/
     width: 100%;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    margin-top: 10px
+}
+@media screen and (max-width: 1254px) {
+    .works {
+        justify-content: center;
+    }
 }

@@ -1,21 +1,24 @@
 import React from 'react';
-import st from "./Work.module.css";
+import styleWorks from "./Work.module.css";
 
 type WorkPropsType = {
-    imgSrc: string
+    imgSrc: string;
+    description: string;
+    title: string;
+    style: any
 }
 function Work(props: WorkPropsType) {
     return (
-        <div className={st.work} >
-            <div className={st.workPicture} style={{}}>
-                <button>Смотреть</button>
+        <div className={styleWorks.work} >
+            <div className={styleWorks.workPicture} style={props.style}>
+                <button className={styleWorks.viewButton}>Смотреть</button>
             </div>
-            <div className={st.description}>
+            <div className={styleWorks.description}>
                 <span >
-               <p>Название проекта</p>
+               <h3 className={styleWorks.projectTitle}>{props.title}</h3>
                  </span>
-                <span >
-               <p>Lorem ipsum dolor ecati, porro quam quasi ratione soluta tempore voluptas!</p>
+                <span className={styleWorks.descriptionText}>
+               <p>{props.description}</p>
                  </span>
             </div>
         </div>

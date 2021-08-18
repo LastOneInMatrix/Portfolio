@@ -1,6 +1,6 @@
 .contactsBlock {
     min-height: 50vh;
-    background-color: #19bdd4;
+    background-color: #5a5a58;
 }
 .contactsContainer {
     align-items: center;
@@ -24,4 +24,16 @@
 .contactsBlockForm .textareaInput{
     margin-bottom: 10px;
     height: 12.5vh
+}
+.submitButton {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
 }

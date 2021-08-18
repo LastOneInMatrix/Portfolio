@@ -1,6 +1,6 @@
 .skillsBlock {
     min-height: 100vh;
-    background-color: aquamarine;
+    background-color: #272a2a;
 }
 .skillsContainer {
     align-items: center;
@@ -17,3 +17,9 @@
 .title {
     background-color: #827b7b;
 }
+@media screen and (max-width: 679px) {
+    .skills {
+        justify-content: center;
+    }
+}
+
