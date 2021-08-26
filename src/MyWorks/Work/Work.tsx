@@ -1,5 +1,5 @@
 import React from 'react';
-import styleWorks from "./Work.module.css";
+import styleWorks from "./Work.module.scss";
 
 type WorkPropsType = {
     imgSrc: string;

@@ -1,26 +1,22 @@
+@import './../common/styles/sass/variable';
+
 .worksBlock {
     min-height: 100vh;
-    background-color: #5a5a58;
-
-}
-
-.workContainer {
+    background-color: $bgColor;
+  .workContainer {
     align-items: center;
     flex-direction: column;
     justify-content: flex-start;
-
-}
-
-.works {
+  }
+  .works {
     /*border: 1px solid black;*/
     width: 100%;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    margin-top: 10px
-}
-@media screen and (max-width: 1254px) {
-    .works {
-        justify-content: center;
+    margin-top: 10px;
+    @media screen and (max-width: 1254px) {
+      justify-content: center;
     }
+  }
 }
